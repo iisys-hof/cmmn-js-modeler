@@ -1,0 +1,52 @@
+{
+  "name": "CMMN-SCHub-flavourd",
+  "version": "0.0.0",
+  "description": "Custom",
+  "main": "app/app.js",
+  "repository": {
+    "type": "git",
+    "url": "xy"
+  },
+  "keywords": [
+    "cmmn",
+    "cmmnjs"
+  ],
+  "contributors": [
+    {
+      "name": "Christian Ochsenkühn",
+      "email": "christin.ochsenkuehn@iisys.de",
+      "url": ""
+    },
+    {
+      "name": "Christian Strobel",
+      "url": ""
+    }
+  ],
+  "license": "MIT",
+  "devDependencies": {
+    "browserify": "^13.0.0",
+    "grunt": "~1.0.1",
+    "grunt-browserify": "^5.0.0",
+    "grunt-contrib-connect": "~1.0.2",
+    "grunt-contrib-copy": "~1.0.0",
+    "grunt-contrib-jshint": "~1.0.0",
+    "grunt-contrib-less": "^1.0.1",
+    "grunt-contrib-uglify": "1.0.1",
+    "grunt-contrib-watch": "~1.0.0",
+    "load-grunt-tasks": "~3.2.0",
+    "stringify": "^3.1.0"
+  },
+  "dependencies": {
+    "bpmn-js": "0.17.0",
+    "diagram-js": "^0.17.0",
+    "cmmn-js": "0.5.3",
+    "cmmn-js-properties-panel": "0.2.0",
+    "cmmn-moddle": "0.3.4",
+    "didi": "^0.0.4",
+    "inherits": "^2.0.1",
+    "lodash": "^3.0.1",
+    "min-dom": "^0.2.0",
+    "object-refs": "^0.1.1",
+    "jquery": "^2.1.1"
+  }
+}
